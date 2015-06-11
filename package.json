@@ -1,7 +1,7 @@
 {
   "name": "respoke-brokered-auth-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "An extremely barebones example of doing brokered auth to connected to Respoke in the browser",
   "main": "index.js",
   "scripts": {
     "lint": "npm run jscs && npm run jshint",
