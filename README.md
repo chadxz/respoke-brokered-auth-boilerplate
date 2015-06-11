@@ -7,7 +7,7 @@ An extremely barebones example of doing brokered auth to connected to Respoke in
 - `git clone` this repo
 - `npm install` to install npm and bower dependencies
 - setup your Respoke config prior to starting your app. You can do this one of two ways:
-    1. set RESPOKE_APP_ID, RESPOKE_APP_SECRET, and RESPOKE_APP_ID environment variables
+    1. set RESPOKE_APP_ID, RESPOKE_APP_SECRET, and RESPOKE_ROLE_ID environment variables
     2. copy `config/default.js` to `config/local.js`, and fill in the empty `respoke` properties
 - `npm start` to start the server
 
