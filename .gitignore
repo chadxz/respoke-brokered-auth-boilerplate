@@ -1,0 +1,6 @@
+node_modules
+.DS_Store
+coverage
+config/local.js
+*.log
+public/bower_components

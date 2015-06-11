@@ -1,0 +1,27 @@
+{
+  "name": "respoke-brokered-auth-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npm run jscs && npm run jshint",
+    "jshint": "jshint .",
+    "jscs": "jscs .",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Chad McElligott <cmcelligott@digium.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jscs": "^1.13.1",
+    "jshint": "^2.8.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "config": "^1.14.0",
+    "express": "^4.12.4",
+    "respoke-admin": "^1.1.1",
+    "serve-static": "^1.9.3"
+  }
+}
